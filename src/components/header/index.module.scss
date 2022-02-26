@@ -1,0 +1,28 @@
+$white-color: #fff;
+
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #FC466B;
+    position: fixed;
+    height: 60px!important;
+    overflow: hidden;
+    z-index: 10;
+}
+.toggleBtn {
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    top: 22px;
+    left: 15px;
+    height: 24px;
+    width: 80px;
+    border: 1px solid $white-color;
+    border-radius: 15px;
+    background: none;
+    color: $white-color;
+}
